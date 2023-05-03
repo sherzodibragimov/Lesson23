@@ -1,0 +1,1 @@
+package uz.fozilbek.lesson23.core.modelsdata class CustomerData(var id: Long, var name: String?, var city: String?, var phoneNumber: String?, var age: Int?)

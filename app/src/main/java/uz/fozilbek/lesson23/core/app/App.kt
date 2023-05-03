@@ -1,0 +1,1 @@
+package uz.fozilbek.lesson23.core.appimport android.app.Applicationimport uz.fozilbek.lesson23.core.db.CustomersDbclass App : Application() {    override fun onCreate() {        super.onCreate()        CustomersDb.init(this)    }}
