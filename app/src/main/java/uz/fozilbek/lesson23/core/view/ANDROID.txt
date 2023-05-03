@@ -1,0 +1,11 @@
+/////////////////////////////////CUSTOM DIALOG////////////////////////////////////////////
+class DialogCustom(context: Context):AlertDialog(context) {
+private val binding by lazy {
+    CusomerDialogBinding.inflate(LayoutInflater.from(context))
+
+}
+    init {
+        setView(binding.root)
+    }
+}
+-------------------------------------------------------
